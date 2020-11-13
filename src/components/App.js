@@ -35,7 +35,7 @@ class App extends Component {
     }
     componentDidMount()
     {
-        let IntervalId=setInterval(()=>{
+        this.IntervalId=setInterval(()=>{
             this.setState({time:new Date()});
         },1000)
     }
